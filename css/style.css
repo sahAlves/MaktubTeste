@@ -1,0 +1,1179 @@
+/* portrait phones */
+@media (max-width: 575.98px){
+
+
+    nav{
+        background-color: white;
+        /* color: white !important; */
+    }
+
+    .nav-item{
+        color: #14ccc6 !important;
+    }
+
+    /* Home */
+
+    #section-slide{
+        padding-top: 80px;
+    }
+
+    .carousel-item img, section-slide{
+        height: 300px !important;
+    }
+
+
+    #section-resumo{
+        height: 350px; 
+        background-color: #1450a4;
+    }
+
+    #section-simulacao{
+        height: 250px;
+        background-image: url(../imgs/familias-fortes.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #linha-simulacao{
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+
+    /* Rodapé */
+
+    footer{
+        height: 800px;
+        background-color: #fdf7ec;
+    }
+
+    .icon-footer{
+        width: 28px;
+        height: 28px;
+    }
+
+    .icon-sociais{
+        width: 38px;
+        height: 38px;
+        margin-bottom: 20px;
+    }
+
+    .icon-sociais:hover{
+        cursor: pointer;
+    }
+
+    /* Contato */
+
+    #section-contato{
+        height: 950px; 
+        padding-top: 160px;
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    #col-contatos{
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    
+    #btn_contato{
+        margin-left: 340px;
+        background-color: #003487;
+        color: white;
+        border: #78acff;
+    }
+
+    /* Sobre nós */
+
+    #section-sobrenos1{
+        height: 700px;
+        background-color: #1450a4;;
+        padding-top: 160px;
+    }
+
+    #h1-sobrenos{
+        color: #14ccc6;
+        margin-bottom: 30px;
+    }
+
+    #p-sobrenos{
+        margin-bottom: 50px;
+    }
+
+    .section-bkg{
+        height: 400px;
+        background-image: url(../imgs/bkg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    #section-sobrenos2{
+        height: 650px;
+        background-color: #1450a4;;
+        padding-top: 50px;
+    }
+
+
+
+    .col-sobrenos{ 
+        width: 200px; 
+        margin-bottom: 70px;
+    }
+
+
+    #section-sobrenos3{
+        height: 170px;
+        background-color: #1450a4;;
+        padding-top: 50px;
+    }
+
+    /* Suporte */
+
+    #section-suporte{
+        min-height: 400px;
+        height: auto;
+        /* background-color: beige; */
+        padding-top: 30px;
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        /* padding-bottom: 50px; */
+    }
+
+    #search{
+        width: 200px;
+        border: 0px white;
+        border-top: solid 0.5px #14ccc6;;
+        border-bottom: solid 0.5px #14ccc6;;
+        border-left: solid 0.5px #14ccc6;;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-right: 0px !important;
+    }
+
+    #cont-img{
+        width: 38px;
+        height: 38px;
+        background-color: white;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top: solid 0.5px #14ccc6;;
+        border-bottom: solid 0.5px #14ccc6;;
+        border-right: solid 0.5px #14ccc6;;
+        margin-right: 20px;
+    }
+
+    #img-search{
+        width: 32px;
+        height: 32px;
+        /* background-color: white; */
+    }
+
+    .mgb-suporte{
+        margin-bottom: 50px;
+    }
+
+    .card-bg{
+        background-color: #177cb3;
+    }
+
+    /* Simulacao */
+
+    #section_simulacao{
+        min-height: 600px;
+        height: auto;
+        /* background-color: blanchedalmond; */
+        padding-top: 160px;
+        padding-bottom: 50px;
+        /* background-image: url(../imgs/bkg.jpg); */
+        background-color:#177cb3;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .form-check-input{
+        width: 25px;
+        height: 25px;
+    }
+
+    .form-check-inline{
+        margin-bottom: 40px;
+    }
+
+    .card-img-top{
+
+        height: 80px;
+    }
+
+    .card-planos{
+        width: 10rem; 
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn-proximos{
+        margin-top: 20px; 
+        margin-left: 300px;
+    }
+
+    .btn-planos{
+        margin-top: 20px; 
+        margin-left: 35px;
+    }
+
+
+}
+
+/* landscape phones */
+@media (min-width: 576px) and (max-width: 767.98px){
+    
+    
+    nav{
+        background-color: white;
+        /* color: white !important; */
+    }
+
+    .nav-item{
+        color: #14ccc6 !important;
+    }
+
+    /* Home */
+
+    #section-slide{
+        padding-top: 80px;
+    }
+
+    .carousel-item img, section-slide{
+        height: 450px !important;
+    }
+
+    #section-resumo{
+        height: 350px; 
+        background-color: #1450a4;
+    }
+
+    #section-simulacao{
+        height: 250px;
+        background-image: url(../imgs/familias-fortes.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #linha-simulacao{
+        padding-top: 120px;
+        padding-left: 50px;
+    }
+
+
+    
+    /* Rodapé */
+
+    footer{
+        height: 800px;
+        background-color: #fdf7ec;
+    }
+
+    .icon-footer{
+        width: 28px;
+        height: 28px;
+    }
+
+    .icon-sociais{
+        width: 38px;
+        height: 38px;
+        margin-bottom: 20px;
+    }
+
+    .icon-sociais:hover{
+        cursor: pointer;
+    }
+
+    /* Contato */
+
+    #section-contato{
+        height: 950px; 
+        padding-top: 160px;
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #col-contatos{
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    #btn_contato{
+        margin-left: 380px;
+        background-color: #003487;
+        color: white;
+        border: #78acff;
+    }
+
+
+    /* Sobre nós */
+
+    #section-sobrenos1{
+        height: 700px;
+        background-color: #1450a4;
+        padding-top: 160px;
+    }
+
+    #h1-sobrenos{
+        color: #14ccc6;
+        margin-bottom: 30px;
+    }
+
+    #p-sobrenos{
+        margin-bottom: 50px;
+    }
+
+    .section-bkg{
+        height: 400px;
+        background-image: url(../imgs/bkg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    #section-sobrenos2{
+        height: 600px;
+        background-color: #1450a4;;
+        padding-top: 50px;
+    }
+
+    .col-sobrenos{ 
+        width: 200px; 
+        margin-bottom: 70px;
+    }
+
+    #section-sobrenos3{
+        height: 170px;
+        background-color: #1450a4;;
+        padding-top: 50px;
+    }
+
+    /* Suporte */
+
+    #section-suporte{
+        min-height: 400px;
+        height: auto;
+        /* background-color: beige; */
+        /* padding-top: 30px; */
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        /* padding-bottom: 50px; */
+    }
+
+    #search{
+        width: 300px;
+        border: 0px white;
+        border-top: solid 0.5px #14ccc6;;
+        border-bottom: solid 0.5px #14ccc6;;
+        border-left: solid 0.5px #14ccc6;;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-right: 0px !important;
+    }
+
+    #cont-img{
+        width: 38px;
+        height: 38px;
+        background-color: white;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top: solid 0.5px #14ccc6;;
+        border-bottom: solid 0.5px #14ccc6;;
+        border-right: solid 0.5px #14ccc6;;
+        margin-right: 20px;
+    }
+
+    #img-search{
+        width: 32px;
+        height: 32px;
+        /* background-color: white; */
+    }
+
+    .mgb-suporte{
+        margin-bottom: 50px;
+    }
+
+    .card-bg{
+        background-color: #177cb3;
+    }
+
+
+    /* Simulacao */
+
+    #section_simulacao{
+        min-height: 600px;
+        height: auto;
+        /* background-color: blanchedalmond; */
+        padding-top: 160px;
+        /* background-image: url(../imgs/bkg.jpg); */
+        background-color:#177cb3;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-bottom: 50px;
+    }
+
+    .form-check-input{
+        width: 25px;
+        height: 25px;
+    }
+
+    .form-check-inline{
+        margin-bottom: 40px;
+    }
+
+    .card-img-top{
+
+        height: 80px;
+    }
+
+    .card-planos{
+        width: 12rem; 
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn-proximos{
+        margin-top: 20px; 
+        margin-left: 350px;
+    }
+
+    .btn-planos{
+        margin-top: 20px; 
+        margin-left: 50px;
+    }
+
+
+}
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 991.98px){
+    
+    nav{
+        background-color: white;
+        /* color: white !important; */
+    }
+
+    .nav-item{
+        color: #14ccc6 !important;
+    }
+
+    /* Home */
+
+    #section-slide{
+        padding-top: 80px;
+    }
+
+    .carousel-item img, section-slide{
+        height: 500px !important;
+    }
+
+    #section-resumo{
+        height: 300px; 
+        background-color: #1450a4;
+    }
+
+    #section-simulacao{
+        height: 250px;
+        background-image: url(../imgs/familias-fortes.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #linha-simulacao{
+        padding-top: 120px;
+        padding-left: 100px;
+    }
+
+    /* Rodapé */
+
+    footer{
+        height: 250px;
+        background-color: #fdf7ec;
+    }
+
+
+    .icon-footer{
+        width: 28px;
+        height: 28px;
+    }
+
+    .icon-sociais{
+        width: 38px;
+        height: 38px;
+        margin-bottom: 5px;
+    }
+
+    #row-sociais{
+        margin-right: 10px;
+    }
+
+    .icon-sociais:hover{
+        cursor: pointer;
+    }
+
+    /* Contato */
+
+    #section-contato{
+        height: 650px; 
+        padding-top: 160px;
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #row-contatos{
+        padding-left: 50px;
+    }
+
+    #col-contatos{
+        border-right: solid 1px black;
+        padding-top: 50px;
+    }
+
+    #btn_contato{
+        margin-left: 210px;
+        background-color: #003487;
+        color: white;
+        border: #78acff;
+    }
+    
+    /* Sobre nós */
+
+    #section-sobrenos1{
+        height: 500px;
+        background-color: #1450a4;;
+        padding-top: 160px;
+    }
+
+    #h1-sobrenos{
+        color: #14ccc6;
+        margin-bottom: 30px;
+    }
+
+    .col-sobrenos{ 
+        width: 200px; 
+        margin-bottom: 70px;
+    }
+
+    .section-bkg{
+        height: 400px;
+        background-image: url(../imgs/bkg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    #section-sobrenos2{
+        height: 400px;
+        background-color: #1450a4;;
+        padding-top: 50px;
+    }
+
+    #section-sobrenos3{
+        height: 170px;
+        background-color: #1450a4;;
+        padding-top: 30px;
+    }
+
+    /* Suporte */
+
+    #section-suporte{
+        min-height: 400px;
+        height: auto;
+        /* background-color: beige; */
+        /* padding-top: 30px; */
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        /* padding-bottom: 50px; */
+    }
+
+    #search{
+        width: 400px;
+        border: 0px white;
+        border-top: solid 0.5px #14ccc6;
+        border-bottom: solid 0.5px #14ccc6;
+        border-left: solid 0.5px #14ccc6;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-right: 0px !important;
+    }
+
+    #cont-img{
+        width: 38px;
+        height: 38px;
+        background-color: white;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top: solid 0.5px #14ccc6;
+        border-bottom: solid 0.5px #14ccc6;
+        border-right: solid 0.5px #14ccc6;
+        margin-right: 20px;
+    }
+
+    #img-search{
+        width: 32px;
+        height: 32px;
+        /* background-color: white; */
+    }
+
+    .mgb-suporte{
+        margin-bottom: 50px;
+    }
+
+    .card-bg{
+        background-color: #177cb3;
+    }
+
+
+    /* Simulacao */
+
+    #section_simulacao{
+        min-height: 600px;
+        height: auto;
+        /* background-color: blanchedalmond; */
+        padding-top: 160px;
+        /* background-image: url(../imgs/bkg.jpg); */
+        background-color: #177cb3;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-bottom: 50px;
+    }
+
+    .form-check-input{
+        width: 25px;
+        height: 25px;
+    }
+
+    .form-check-inline{
+        margin-bottom: 40px;
+    }
+
+    .card-img-top{
+
+        height: 80px;
+    }
+
+    .card-planos{
+        width: 13rem; 
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn-proximos{
+        margin-top: 20px; 
+        margin-left: 250px;
+    }
+
+    .btn-planos{
+        margin-top: 20px; 
+        margin-left: 70px;
+    }
+
+
+}
+
+/* desktops + */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+    nav{
+        background-color: white;
+        /* color: white !important; */
+    }
+
+    .nav-item{
+        color: #14ccc6 !important;
+    }
+
+    /* Home */
+
+    #section-slide{
+        padding-top: 80px;
+    }
+
+    .carousel-item img, section-slide{
+        height: 530px !important;
+    }
+
+    #section-resumo{
+        height: 300px; 
+        background-color: #1450a4;
+    }
+
+
+    #section-simulacao{
+        height: 250px;
+        background-image: url(../imgs/familias-fortes.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #linha-simulacao{
+        padding-top: 120px;
+        padding-left: 130px;
+    }
+
+    /* Rodapé */
+
+    footer{
+        height: 200px;
+        background-color: #fdf7ec;
+    }
+
+
+    .icon-footer{
+        width: 28px;
+        height: 28px;
+    }
+
+    .icon-sociais{
+        width: 38px;
+        height: 38px;
+    }
+
+    .icon-sociais:hover{
+        cursor: pointer;
+    }
+
+
+    /* Contato */
+
+    #section-contato{
+        height: 650px; 
+        padding-top: 160px;
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #row-contatos{
+        padding-left: 100px;
+    }
+
+    #col-contatos{
+        border-right: solid 1px black;
+        padding-top: 50px;
+    }
+
+    #btn_contato{
+        margin-left: 300px;
+        background-color: #003487;
+        color: white;
+        border: #78acff;
+    }
+
+    /* Sobre nós */
+
+    #section-sobrenos1{
+        height: 450px;
+        background-color: #1450a4;
+        padding-top: 160px;
+    }
+
+    #h1-sobrenos{
+        color: #14ccc6;
+    } 
+
+    .col-sobrenos{ 
+        width: 300px; 
+        /* margin-bottom: 70px; */
+    }
+
+    .section-bkg{
+        height: 400px;
+        background-image: url(../imgs/bkg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    #section-sobrenos2{
+        height: 350px;
+        background-color: #1450a4;
+        padding-top: 50px;
+    }
+
+    #section-sobrenos3{
+        height: 170px;
+        background-color: #1450a4;
+        padding-top: 50px;
+    }
+
+    /* Suporte */
+
+    #section-suporte{
+        min-height: 400px;
+        height: auto;
+        /* background-color: beige; */
+        /* padding-top: 30px; */
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        /* padding-bottom: 50px; */
+    }
+
+    #search{
+        width: 500px;
+        border: 0px white;
+        border-top: solid 0.5px #14ccc6;
+        border-bottom: solid 0.5px #14ccc6;
+        border-left: solid 0.5px #14ccc6;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-right: 0px !important;
+    }
+
+    #cont-img{
+        width: 38px;
+        height: 38px;
+        background-color: white;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top: solid 0.5px #14ccc6;
+        border-bottom: solid 0.5px #14ccc6;
+        border-right: solid 0.5px #14ccc6;
+        margin-right: 20px;
+    }
+
+    #img-search{
+        width: 32px;
+        height: 32px;
+        /* background-color: white; */
+    }
+
+    .mgb-suporte{
+        margin-bottom: 50px;
+    }
+
+    
+    .card-bg{
+        background-color: #177cb3;
+    }
+
+
+        /* Simulacao */
+
+        #section_simulacao{
+            min-height: 600px;
+            height: auto;
+            /* background-color: blanchedalmond; */
+            padding-top: 160px;
+            /* background-image: url(../imgs/bkg.jpg); */
+            background-color:#177cb3;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            padding-bottom: 50px;
+        }
+    
+        .form-check-input{
+            width: 25px;
+            height: 25px;
+        }
+    
+        .form-check-inline{
+            margin-bottom: 40px;
+        }
+    
+        .card-img-top{
+    
+            height: 80px;
+        }
+    
+        .card-planos{
+            width: 13rem; 
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+    
+        .btn-proximos{
+            margin-top: 20px; 
+            margin-left: 400px;
+        }
+    
+        .btn-planos{
+            margin-top: 20px; 
+            margin-left: 80px;
+        }
+    
+
+
+
+}
+
+/* large desktops */
+@media (min-width: 1200px){
+    
+
+    nav{
+        background-color: white;
+        /* color: white !important; */
+    }
+
+    .nav-item{
+        color: #14ccc6 !important;
+    }
+
+    /* Home */
+
+    #section-slide{
+        padding-top: 80px;
+    }
+
+    .carousel-item img, #section-slide{
+        height: 600px !important;
+    }
+
+    #section-resumo{
+        height: 250px; 
+        background-color:#1450a4;
+    }
+
+    #section-simulacao{
+        height: 450px;
+        background-image: url(../imgs/familias-fortes.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #linha-simulacao{
+        padding-top: 260px;
+        padding-left: 130px;
+    }
+
+    /* Rodapé */
+
+    footer{
+        height: 200px;
+        background-color: #fdf7ec;
+    }
+
+    .icon-footer{
+        width: 28px;
+        height: 28px;
+    }
+
+    .icon-sociais{
+        width: 38px;
+        height: 38px;
+    }
+
+    .icon-sociais:hover{
+        cursor: pointer;
+    }
+
+    /* Contato */
+
+    #section-contato{
+        height: 650px; 
+        padding-top: 160px;
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #row-contatos{
+        padding-left: 130px;
+    }
+
+    #col-contatos{
+        border-right: solid 1px black;
+        padding-top: 50px;
+    }
+
+    #btn_contato{
+        margin-left: 380px;
+        background-color: #003487;
+        color: white;
+        border: #78acff;
+    }
+
+    /* Sobre nós */
+
+    #section-sobrenos1{
+        height: 500px;
+        background-color: #1450a4;
+        padding-top: 160px;
+    }
+
+    #h1-sobrenos{
+        color: #14ccc6;
+    }
+
+    .section-bkg{
+        height: 400px;
+        background-image: url(../imgs/bkg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .col-sobrenos{ 
+        width: 200px; 
+        /* margin-bottom: 70px; */
+    }
+
+
+    #section-sobrenos2{
+        height: 300px;
+        background-color: #1450a4;
+        padding-top: 50px;
+    }
+
+    #section-sobrenos3{
+        height: 170px;
+        background-color: #1450a4;
+        padding-top: 50px;
+    }
+
+    /* Suporte */
+
+    #section-suporte{
+        min-height: 400px;
+        height: auto;
+        /* background-color: beige; */
+        background-image: url(../imgs/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+
+    #search{
+        width: 500px;
+        border: 0px white;
+        border-top: solid 0.5px #14ccc6;
+        border-bottom: solid 0.5px #14ccc6;
+        border-left: solid 0.5px #14ccc6;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-right: 0px !important;
+    }
+
+    #cont-img{
+        width: 38px;
+        height: 38px;
+        background-color: white;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top: solid 0.5px #14ccc6;
+        border-bottom: solid 0.5px #14ccc6;
+        border-right: solid 0.5px #14ccc6;
+        margin-right: 20px;
+    }
+
+    #img-search{
+        width: 32px;
+        height: 32px;
+        /* background-color: white; */
+    }
+
+    .mgb-suporte{
+        margin-bottom: 50px;
+    }
+
+    .card-bg{
+        background-color: #177cb3;
+    }
+
+    /* Simulacao */
+
+    #section_simulacao{
+        min-height: 600px;
+        height: auto;
+        padding-bottom: 50px;
+        /* background-color: blanchedalmond; */
+        padding-top: 160px;
+        /* background-image: url(../imgs/bkg.jpg); */
+        background-color:#177cb3;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .form-check-input{
+        width: 25px;
+        height: 25px;
+    }
+
+    .form-check-inline{
+        margin-bottom: 40px;
+    }
+
+    .card-img-top{
+
+        height: 80px;
+    }
+
+    .card-planos{
+        width: 15rem; 
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn-proximos{
+        margin-top: 20px; 
+        margin-left: 500px;
+    }
+
+    .btn-planos{
+        margin-top: 20px; 
+        margin-left: 100px;
+    }
+
+}
