@@ -35,9 +35,68 @@ $status = (int) 0;
 
         <script type="text/javascript">
             $(document).ready(function(){
-                $('#form_checks').submit(function(e){
-                    e.preventDefault();
+
+                $('#btn_idade').click(function(){
+                    
+                    let isChecked = false;
+
+                    $('.form-check-input').each(function(){
+
+                        if($(this).is(':checked')){
+                            isChecked = true;
+                        }
+
+                    });
+
+                    if(!isChecked){
+                       alert('Selecione pelo menos uma faixa etária!'); 
+                    }else{
+                        $('#form_checks').submit();
+                    }   
+
                 });
+
+                $('#btnModalidades').click(function(){
+                    
+                    let checados = 0;
+
+                    $('.form-check-input').each(function(){
+
+                        if($(this).is(':checked')){
+                            checados += 1;
+                        }
+
+                    });
+
+                    if(checados == 0){
+                       alert('Selecione uma modalidade!'); 
+                    }else if(checados == 2){
+                        alert('Selecione apenas uma modalidade!'); 
+                    }else{
+                        $('#form_mods').submit();
+                    }
+
+                });
+
+                $('#form_final').submit(function(e){
+                    e.preventDefault();
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'MODULOS/inserir.php',
+                        data: new FormData($('#form_final')[0]),
+                        cache: false,
+                        contentType: false,
+                        processData: false,
+                        async: true,
+                        success: function(data){
+                            $('#container_modal_lazarus').fadeIn(1000);
+                            $('#ExemploModalCentralizado').removeClass('modal_lazarus');
+                            $('#ExemploModalCentralizado').addClass('modal_block show');
+                        }
+                    });
+                });
+
             });
         </script>
 
@@ -47,10 +106,37 @@ $status = (int) 0;
     <body>
 
     
+            
+<div id="container_modal_lazarus">
 
+<!-- Modal -->
+
+<div class="modal_lazarus fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado">Parabéns pela escolha!</h5>
+        <a href="simulacao.php"><button type="button" class="close" data-dismiss="modal" aria-label="Fechar"></a>
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <p class="text-center">
+            Em breve um de nossos corretores entrará em contato.
+        </p>
+    </div>
+    <div class="modal-footer">
+    <a href="simulacao.php"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button></a>
+    </div>
+    </div>
+</div>
+</div>
+
+
+</div>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm p-3 mb-5 bg-white rounded">
+        <nav class="navbar zindex navbar-expand-lg navbar-light fixed-top shadow-sm p-3 mb-5 bg-white rounded">
 
             <div class="container">
                 <!-- Logo -->
@@ -177,7 +263,7 @@ $status = (int) 0;
 
                 <!-- Rodapé -->
 
-                <footer>
+                <footer class="zindex">
             <div class="container h-100">
                 <div class="row h-100">
                     <!-- Menus -->
@@ -262,7 +348,7 @@ $status = (int) 0;
 
 
         <!--JS Bootstrap-->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/maktub.js"></script>

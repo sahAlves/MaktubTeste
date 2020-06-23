@@ -1176,4 +1176,47 @@
         margin-left: 100px;
     }
 
+
+    .modal_lazarus {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;
+        display: none;
+        overflow: hidden;
+        outline: 0;
+    }
+
+    .modal_block{
+        display: block !important;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;
+        /* display: none; */
+        overflow: hidden;
+        outline: 0;
+    }
+
+    #container_modal_lazarus{
+        background-color: rgba(0,0,0,0.5);
+        width: 100vw;
+        height: 100vh;
+        position: fixed !important;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        
+    }
+
+    .zindex{
+        z-index: 997;
+    }
+
+
 }

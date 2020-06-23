@@ -18,6 +18,12 @@
 // $btnIdade.addEventListener("click", );
 
 
+// function validarChecks(){
+//     const checkbox = document.getElementsByClassName('form-check-input');
+// }
+
+
+
 //Função para bloquear entrada de letra ou número
 function validarEntrada(caracter, typeBlock){
 
@@ -28,6 +34,8 @@ function validarEntrada(caracter, typeBlock){
     else
         var asc = caracter.which;
     
+
+        console.log(asc);
     
     if (tipo == "numeric"){
         

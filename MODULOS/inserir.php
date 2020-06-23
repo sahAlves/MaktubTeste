@@ -48,7 +48,9 @@ $precoTotal = (double) 0.00;
 
 
     //Pagina de simulação
-    if(isset($_POST['btnIdade'])){
+    if(isset($_POST['idades'])){
+        
+
         
         require_once('../bd/conexao.php');
 
@@ -228,7 +230,7 @@ $precoTotal = (double) 0.00;
 
 
 
-    if(isset($_POST['btn_modalidades'])){
+    if(isset($_POST['modalidade'])){
         require_once('../bd/conexao.php');
 
 
@@ -270,15 +272,23 @@ $precoTotal = (double) 0.00;
         }
     }
 
-    if(isset($_POST['btnDados'])){
+    $qlqr = $_POST;
+    var_dump($_POST);
+
+    if(isset($_POST['txt_nome_final'])){
+
+        $qlqr = "true";
 
         require_once('../bd/conexao.php');
 
+        // header('location:../index.php?');
+
+        echo('<script>console.log("entrou");</script>');
 
         $conexao = conexaoMysql();
 
 
-        $nome = $_POST['txt_nome'];
+        $nome = $_POST['txt_nome_final'];
         $telefone_celular = $_POST['txt_telefone_celular'];
 
         $sql="insert into tbl_simulacao (nome, telefone_celular, operadora, modalidade, preco) values ('".$nome."','".$telefone_celular."','".$_SESSION['operadora']."','".$_SESSION['modalidade']."',".$_SESSION['preco'].")";
@@ -287,7 +297,7 @@ $precoTotal = (double) 0.00;
 
         if(mysqli_query($conexao,$sql)){
             session_destroy();
-            header('location:../index.php?');
+            header('location:../index.php');
         }   
         else{
             echo("Erro ao executar o script no banco");
