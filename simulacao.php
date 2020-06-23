@@ -97,6 +97,19 @@ $status = (int) 0;
                     });
                 });
 
+                $('#fechar_modal').click(function(){
+                    $('#container_modal_lazarus').fadeOut(1000);
+                });
+
+                $('#btn_modal').click(function(){
+                    $('#container_modal_lazarus').fadeOut(1000);
+                });
+
+                $('#container_modal_lazarus').click(function(){
+                    $('#container_modal_lazarus').fadeOut(1000);
+                });
+
+
             });
         </script>
 
@@ -116,7 +129,7 @@ $status = (int) 0;
     <div class="modal-content">
     <div class="modal-header">
         <h5 class="modal-title" id="TituloModalCentralizado">Parabéns pela escolha!</h5>
-        <a href="simulacao.php"><button type="button" class="close" data-dismiss="modal" aria-label="Fechar"></a>
+        <a href="index.php"><button type="button" id="fechar_modal" class="close" data-dismiss="modal" aria-label="Fechar"></a>
         <span aria-hidden="true">&times;</span>
         </button>
     </div>
@@ -126,7 +139,7 @@ $status = (int) 0;
         </p>
     </div>
     <div class="modal-footer">
-    <a href="simulacao.php"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button></a>
+    <a href="index.php"><button type="button" id="btn_modal" class="btn btn-secondary" data-dismiss="modal">Fechar</button></a>
     </div>
     </div>
 </div>
