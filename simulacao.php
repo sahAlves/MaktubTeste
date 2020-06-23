@@ -128,7 +128,7 @@ $status = (int) 0;
 <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
     <div class="modal-header">
-        <h5 class="modal-title" id="TituloModalCentralizado">Parabéns pela escolha!</h5>
+        <h5 class="modal-title" id="TituloModalCentralizado" style="color:#177cb3;">Parabéns pela escolha!</h5>
         <a href="index.php"><button type="button" id="fechar_modal" class="close" data-dismiss="modal" aria-label="Fechar"></a>
         <span aria-hidden="true">&times;</span>
         </button>
